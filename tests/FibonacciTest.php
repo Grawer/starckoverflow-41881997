@@ -6,7 +6,7 @@ class FibonacciTestCase extends PHPUnit_Framework_TestCase
     {
         $this->assertEquals(
             array(1, 1, 1, 3, 5, 9),
-            Source\MathFunctions::fib(array(1, 1, 1), 6)
+            fib(array(1, 1, 1), 6)
         );
     }
 }
